@@ -1,0 +1,16 @@
+CompileFlags:
+  Add:
+    - -xc++
+    - -std=gnu++11
+    - -include
+    - Arduino.h
+    - -I/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino
+    - -I/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/variants/standard
+    - -I/Applications/Arduino.app/Contents/Java/hardware/tools/avr/avr/include
+    - -DARDUINO=10819
+    - -DARDUINO_AVR_UNO
+    - -DARDUINO_ARCH_AVR
+    - -DF_CPU=16000000L
+    - -D__AVR_ATmega328P__
+    - -Wno-unknown-attributes
+    - -Wno-ignored-attributes
