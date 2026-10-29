@@ -7,10 +7,37 @@ CompileFlags:
     - -I/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino
     - -I/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/variants/standard
     - -I/Applications/Arduino.app/Contents/Java/hardware/tools/avr/avr/include
+    # AVR 전용 내장 라이브러리
+    - -I/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/EEPROM/src
+    - -I/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/HID/src
+    - -I/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial/src
+    - -I/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SPI/src
+    - -I/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/Wire/src
+    # 공통 내장 라이브러리
+    - -I/Applications/Arduino.app/Contents/Java/libraries/Adafruit_Circuit_Playground
+    - -I/Applications/Arduino.app/Contents/Java/libraries/Bridge/src
+    - -I/Applications/Arduino.app/Contents/Java/libraries/Esplora/src
+    - -I/Applications/Arduino.app/Contents/Java/libraries/Ethernet/src
+    - -I/Applications/Arduino.app/Contents/Java/libraries/Firmata
+    - -I/Applications/Arduino.app/Contents/Java/libraries/GSM/src
+    - -I/Applications/Arduino.app/Contents/Java/libraries/Keyboard/src
+    - -I/Applications/Arduino.app/Contents/Java/libraries/LiquidCrystal/src
+    - -I/Applications/Arduino.app/Contents/Java/libraries/Mouse/src
+    - -I/Applications/Arduino.app/Contents/Java/libraries/Robot_Control/src
+    - -I/Applications/Arduino.app/Contents/Java/libraries/Robot_Motor/src
+    - -I/Applications/Arduino.app/Contents/Java/libraries/RobotIRremote/src
+    - -I/Applications/Arduino.app/Contents/Java/libraries/SD/src
+    - -I/Applications/Arduino.app/Contents/Java/libraries/Servo/src
+    - -I/Applications/Arduino.app/Contents/Java/libraries/SpacebrewYun/src
+    - -I/Applications/Arduino.app/Contents/Java/libraries/Stepper/src
+    - -I/Applications/Arduino.app/Contents/Java/libraries/Temboo/src
+    - -I/Applications/Arduino.app/Contents/Java/libraries/TFT/src
+    - -I/Applications/Arduino.app/Contents/Java/libraries/WiFi/src
     - -DARDUINO=10819
     - -DARDUINO_AVR_UNO
     - -DARDUINO_ARCH_AVR
     - -DF_CPU=16000000L
     - -D__AVR_ATmega328P__
+    - -D__AVR__
     - -Wno-unknown-attributes
     - -Wno-ignored-attributes
